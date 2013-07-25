@@ -7,9 +7,12 @@ Mpu-9150.spin
 ''
 ''
 ''     QuadRotor
-'' -- Jason Dorie --               
-''               
-'' ITG-3200 Gyro Module
+'' -- Jason Dorie --  
+''
+'' EDITED BY TEGAN BURNS  
+''
+''
+'' MPU-3200 Gyro Module
 '' Note that this code assumes an 80 MHz clock
 
 
