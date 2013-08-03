@@ -80,7 +80,7 @@ PUB IsReady
   return Ready
   
 
-PRI ITG3200_Loop | value, ack, lastTime
+PRI MPU9150_Loop | value, ack, lastTime
 
   x0 := y0 := z0 := 0
   x :=  y :=  z := 0
@@ -179,7 +179,7 @@ PRI ITG3200_Loop | value, ack, lastTime
     lastTime += constant(80_000_000 / 200)
     
 
-      ITGStartRead( $03 )                             'Magnatometer
+      ITGStartRead( $03 )                             'Magnatometer ''not sure if this is working
     MagX := ContinueRead << 8
     MagX += ContinueRead
     
